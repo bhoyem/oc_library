@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <p>© 2025 Bryan Hoyem</p>
+      <p className="font-Aclonica">© 2025 Bryan Hoyem</p>
     </>
   );
 }
