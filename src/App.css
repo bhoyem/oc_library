@@ -36,9 +36,9 @@
   }
   .logo.react:hover {
     filter: drop-shadow(0 0 2em #61dafbaa);
-  } */
+  }
 
-  /* @keyframes logo-spin {
+  @keyframes logo-spin {
     from {
       transform: rotate(0deg);
     }
@@ -56,8 +56,5 @@
   .card {
     padding: 2em;
   }
-
-  .read-the-docs {
-    color: #888;
-  } */
+ */
 }
