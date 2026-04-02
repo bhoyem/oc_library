@@ -1,7 +1,7 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-// import "./App.css";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "./assets/vite.svg";
+import "./App.css";
 import LandingPageLayout from "./ui/MainMenu";
 import Footer from "./components/Footer";
 
@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-[60vh] max-h-[99vh] max-w-[90vw] mt-[5px] flex flex-col items-center w-85% outline-2 outline-orange-500 ">
       <LandingPageLayout />
       {/* <div>
         <a href="https://vite.dev" target="_blank">
