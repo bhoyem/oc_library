@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "./assets/vite.svg";
 import "./App.css";
-import LandingPageLayout from "./ui/MainMenu";
+import LandingPageLayout from "./ui/LandingPage";
 import Footer from "./components/Footer";
 
 function App() {
@@ -15,9 +15,11 @@ function App() {
 
   return (
     <Router>
-      <Navbar />
-
-      <div className="min-h-[60vh] max-h-[99vh] max-w-[90vw] mt-[5px] flex flex-col items-center w-85% outline-2 outline-orange-500 ">
+      <div
+        id="landingPageContainer"
+        className="min-h-[60vh] max-h-[99vh] max-w-[95vw] mt-[20px] flex flex-col items-center w-[85%] h-[95%] outline-2 outline-orange-500 "
+      >
+        <Navbar />
         <LandingPageLayout />
         {/* <div>
         <a href="https://vite.dev" target="_blank">

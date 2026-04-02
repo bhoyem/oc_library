@@ -4,7 +4,7 @@ import {Nav, NavLink, NavMenu } from "./Navbar/NavbarElements";
 const Navbar = () => {
     return (
         <>
-            <Nav>
+            <Nav className="w-full">
                 <NavMenu>
                     <NavLink to="/about" activeStyle>
                         About

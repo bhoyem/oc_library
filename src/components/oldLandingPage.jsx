@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 // import "./App.css";
-import LandingPageLayout from "./ui/MainMenu";
+import LandingPageLayout from "./ui/LandingPage";
 import Footer from "./components/Footer";
 
 function App() {
