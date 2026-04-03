@@ -7,7 +7,7 @@ import Contact from "./pages/contact.jsx";
 import CharacterLibrary from "./pages/characterLibrary.jsx";
 import CharacterCreation from "./pages/characterCreation.jsx";
 import "./App.css";
-import LandingPageLayout from "./ui/LandingPage";
+import LandingPageLayout from "./pages/LandingPage.jsx";
 import Footer from "./components/Footer";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
     <Router>
       <div
         id="landingPageContainer"
-        className="w-full h-[95%] min-h-[500px] max-h-[99vh] min-w-[360px] mb-[20px] flex flex-col grow items-center outline-2 outline-orange-500 "
+        className="w-full h-[95%] min-h-[500px] max-h-[99vh] min-w-[360px] mb-[20px] flex flex-col grow items-center outline-orange-500 outline-2 outline-dashed"
       >
         <Navbar />
         <Routes>
