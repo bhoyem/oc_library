@@ -4,6 +4,8 @@ import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import About from "./pages/about.jsx";
 import Contact from "./pages/contact.jsx";
+import CharacterLibrary from "./pages/characterLibrary.jsx";
+import CharacterCreation from "./pages/characterCreation.jsx";
 import "./App.css";
 import LandingPageLayout from "./ui/LandingPage";
 import Footer from "./components/Footer";
@@ -22,6 +24,8 @@ function App() {
           <Route path="/" element={<LandingPageLayout />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/characterLibrary" element={<CharacterLibrary />} />
+          <Route path="/characterCreation" element={<CharacterCreation />} />
         </Routes>
         <div className="mt-auto">
           <Footer />
