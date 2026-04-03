@@ -6,12 +6,12 @@
     line-height: 1.5;
     font-weight: 400;
 
-    color-scheme: light dark;
+    /* color-scheme: light dark;
     --light-bg: #24c116;
     --light-color: #ac22a2;
 
     --dark-bg: #3D2979;
-    --dark-color: #d8bdef;
+    --dark-color: #d8bdef; */
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -19,14 +19,12 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  #root {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    /* padding: 2rem; */
-    text-align: center;
-    /* background-color: #3d2979; */
+  html {
+    height: 100%;
   }
+
+  /* #root {
+  } */
 
   a {
     font-weight: 500;
@@ -40,16 +38,10 @@
   body {
     margin: 0;
     display: flex;
-    /* place-items: center; */
     height: 100%;
-    min-width: 320px;
-    max-width: 99%;
-    outline-width: 2px;
-    outline-color: red;
-    outline-style: solid;
-    /* min-height: 100vh; */
-    background-color: light-dark(#24c116, #3d2979);
-    color: light-dark(var(--light-color), var(--dark-color));
+    min-width: 350px;
+    background-color: #3d2979;
+    color: #d8bdef;
   }
 
   h1 {
@@ -108,36 +100,4 @@
     }
   } */
 
-  /* .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
-  }
-
-  @keyframes logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  @media (prefers-reduced-motion: no-preference) {
-    a:nth-of-type(2) .logo {
-      animation: logo-spin infinite 20s linear;
-    }
-  }
-
-  .card {
-    padding: 2em;
-  }
- */
 }

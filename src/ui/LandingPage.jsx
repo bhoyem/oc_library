@@ -1,7 +1,7 @@
 export default function LandingPageLayout() {
   return (
     <>
-      <section className="flex flex-col items-center max-w-[98vw] min-w-100 mt-[95px] outline-2 outline-green-500">
+      <section id="homeButtonsContainer" className="flex flex-col items-center min-w-[360px] my-auto outline-2 outline-green-500">
         <div className="w-[92%] pageBlock mt-[5vw] min-h-42.5">
           <p className="">
             <span className="text-[1.3rem]">Welcome to the</span>

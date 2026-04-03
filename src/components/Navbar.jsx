@@ -6,10 +6,13 @@ const Navbar = () => {
         <>
             <Nav className="w-full">
                 <NavMenu>
-                    <NavLink to="/about" activeStyle>
+                    <NavLink to="/">
+                        Home
+                    </NavLink>
+                    <NavLink to="/about">
                         About
                     </NavLink>
-                    <NavLink to="/contact" activeStyle>
+                    <NavLink to="/contact">
                         Contact Us
                     </NavLink>
                 </NavMenu>
